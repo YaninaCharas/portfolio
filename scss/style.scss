@@ -1,0 +1,110 @@
+@import "./variables";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+}
+.navbar{
+    width: 50%;
+    margin-left: 25%;
+}
+.navbar-brand{
+    width: 25%;  
+    padding: 0;  
+}
+.img-logo{
+    width: 30%;
+}
+.color-gray{
+    background-color: gray;
+    border-bottom: 0.1rem solid black;
+}
+h1{
+    text-align: center;
+    font-weight: 100 ;
+}
+h5, h6{
+    padding-top: 0.4rem;
+    text-align: center;  
+    color: $violet-transparent; 
+}
+.inicio{
+    background: rgb(248,245,249);
+    background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(128,128,128,1) 100%);
+    width: 50%;
+    min-height: 80vh;
+    margin-left: 25%;
+}
+.image-inicio{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid violet;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    display: flex;
+}
+.center-btn, .center-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-footer{
+    justify-content: space-around;
+}
+
+.btn-mail,.bi-facebook, .bi-instagram, .bi-whatsapp, .bi-github, .bi-linkedin {
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-size: 25px;
+    text-decoration: none;
+    color:$violet-transparent;
+    align-items: center;
+}
+
+.bi-facebook{
+        &:hover{
+            color:$color-fb;
+        }
+}   
+.bi-instagram{
+        &:hover{
+            color:$color-itg;
+        }
+    }
+.bi-whatsapp{
+        &:hover{
+            color: $color-wp;
+        }
+}
+.bi-github{
+    &:hover{
+        color: black;
+    }
+}
+.bi-linkedin{
+    &:hover{
+        color: $color-lkdn;
+    }
+}
+.btn-mail{
+    font-size: 20px;
+    margin-top: 1rem;
+    &:hover{
+        color:$color-fb;
+    }
+}   
+.footer-mail{
+    background: rgb(248,245,249,1);
+    background: linear-gradient(0deg, rgba(248,245,249,1) 0%, rgba(252,252,252,1) 100%);
+    width: 50%;
+    height: 8vh;
+    margin-left: 25%;
+   
+}
