@@ -130,6 +130,14 @@ h5, h6 {
   margin-left: 25%;
 }
 
+@media screen and (min-width: 480px) and (max-width: 520px) {
+  .btn-mail {
+    font-size: 10px;
+  }
+  .img-logo {
+    width: 40%;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .btn-mail {
     font-size: 10px;
