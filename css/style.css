@@ -12,12 +12,15 @@ body {
 }
 
 .navbar-brand {
-  width: 25%;
+  width: 15%;
   padding: 0;
+  margin: 0;
 }
 
 .navbar a {
   color: #1e4d1d;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .navbar a:hover {
   transform: scale(1.1);
@@ -26,6 +29,9 @@ body {
 
 .nav-link.item-elegido {
   color: #FFE3B3;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .nav-link.item-elegido:hover {
   color: #FFC872;
@@ -84,7 +90,7 @@ h5, h6 {
   padding-left: 1rem;
   font-size: 25px;
   text-decoration: none;
-  color: #7ACE67;
+  color: rgba(101, 99, 101, 0.5176470588);
   align-items: center;
 }
 
@@ -122,4 +128,13 @@ h5, h6 {
   width: 50%;
   height: 8vh;
   margin-left: 25%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .btn-mail {
+    font-size: 10px;
+  }
+  .img-logo {
+    width: 40%;
+  }
 }/*# sourceMappingURL=style.css.map */

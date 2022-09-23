@@ -12,11 +12,14 @@ body{
 }
 
 .navbar-brand{
-    width: 25%;  
+    width: 15%;  
     padding: 0;  
+    margin: 0;
 }
 .navbar a{
     color: $verde;
+    padding-top: 0;
+    padding-bottom: 0;
     &:hover{
         transform: scale(1.1);
         color: $verde-claro;
@@ -24,6 +27,9 @@ body{
 }
 .nav-link.item-elegido{
     color:$piel;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     &:hover{
         color: $anaranjado;
     }
@@ -74,7 +80,7 @@ h5, h6{
     padding-left: 1rem;
     font-size: 25px;
     text-decoration: none;
-    color:$verde-claro;
+    color:$gris-transparent;
     align-items: center;
 }
 
@@ -117,4 +123,14 @@ h5, h6{
     height: 8vh;
     margin-left: 25%;
    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .btn-mail{
+        font-size: 10px; 
+    }
+    .img-logo{
+        width: 40%;
+    }
+    
 }
