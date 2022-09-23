@@ -10,42 +10,52 @@ body{
     min-height: 100vh;
     background-color: white;
 }
-.navbar{
-    width: 50%;
-    margin-left: 25%;
-}
+
 .navbar-brand{
     width: 25%;  
     padding: 0;  
+}
+.navbar a{
+    color: $verde;
+    &:hover{
+        transform: scale(1.1);
+        color: $verde-claro;
+    }
+}
+.nav-link.item-elegido{
+    color:$piel;
+    &:hover{
+        color: $anaranjado;
+    }
 }
 .img-logo{
     width: 30%;
 }
 .color-gray{
     background-color: gray;
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid $verde;
 }
 h1{
     text-align: center;
     font-weight: 100 ;
+    color: $verde-transparente;
 }
 h5, h6{
     padding-top: 0.4rem;
     text-align: center;  
-    color: $violet-transparent; 
+    color: $verde-oscuro; 
 }
 .inicio{
     background: rgb(248,245,249);
     background: linear-gradient(0deg, rgba(252,252,252,1) 0%, rgba(128,128,128,1) 100%);
-    width: 50%;
+    width: 100%;
     min-height: 80vh;
-    margin-left: 25%;
 }
 .image-inicio{
-    width: 60%;
+    width: 30%;
     height: auto;
     margin: 0 auto;
-    border: 1px solid violet;
+    border: 1px solid $verde;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
     display: flex;
@@ -64,7 +74,7 @@ h5, h6{
     padding-left: 1rem;
     font-size: 25px;
     text-decoration: none;
-    color:$violet-transparent;
+    color:$verde-claro;
     align-items: center;
 }
 

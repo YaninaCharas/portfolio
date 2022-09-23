@@ -11,14 +11,24 @@ body {
   background-color: white;
 }
 
-.navbar {
-  width: 50%;
-  margin-left: 25%;
-}
-
 .navbar-brand {
   width: 25%;
   padding: 0;
+}
+
+.navbar a {
+  color: #1e4d1d;
+}
+.navbar a:hover {
+  transform: scale(1.1);
+  color: #7ACE67;
+}
+
+.nav-link.item-elegido {
+  color: #FFE3B3;
+}
+.nav-link.item-elegido:hover {
+  color: #FFC872;
 }
 
 .img-logo {
@@ -27,33 +37,33 @@ body {
 
 .color-gray {
   background-color: gray;
-  border-bottom: 0.1rem solid black;
+  border-bottom: 0.1rem solid #1e4d1d;
 }
 
 h1 {
   text-align: center;
   font-weight: 100;
+  color: rgba(30, 77, 29, 0.4274509804);
 }
 
 h5, h6 {
   padding-top: 0.4rem;
   text-align: center;
-  color: #5b1257;
+  color: #31B189;
 }
 
 .inicio {
   background: rgb(248, 245, 249);
   background: linear-gradient(0deg, rgb(252, 252, 252) 0%, rgb(128, 128, 128) 100%);
-  width: 50%;
+  width: 100%;
   min-height: 80vh;
-  margin-left: 25%;
 }
 
 .image-inicio {
-  width: 60%;
+  width: 30%;
   height: auto;
   margin: 0 auto;
-  border: 1px solid violet;
+  border: 1px solid #1e4d1d;
   border-bottom-right-radius: 50%;
   border-top-left-radius: 50%;
   display: flex;
@@ -74,7 +84,7 @@ h5, h6 {
   padding-left: 1rem;
   font-size: 25px;
   text-decoration: none;
-  color: #5b1257;
+  color: #7ACE67;
   align-items: center;
 }
 
